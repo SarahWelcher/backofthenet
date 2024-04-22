@@ -91,6 +91,17 @@ const quizData = [
 function showQuestion() {
     const question = quizData[currentQuestion];
     questionElement.innerText = question.question;
+
+    // Creates a button for answer options and changes inner text to array option
+    optionsElement.innerHTML = "";
+    question.options.forEach(option => {
+        const button = document.createElement("button")
+        button.innerText = option;
+        optionsElement.appendChild(button);
+        button.addEventListener("click", selectAnswer);
+        button.classList.add("btn");
+    });
 }
 
-    showQuestion();
+
+showQuestion();
