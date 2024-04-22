@@ -35,3 +35,32 @@
   .welcome-message {
     color: #D1D3D4;
   }
+
+  /* ------- buttons ------- */
+  
+  .btn {
+    font-size: large;
+    box-shadow: 0 6px 12px -2px rgba(#D1D3D4, .15);
+    background-color: rgba(3, 70, 148, 0.5);
+    color: rgb(238, 36, 44, 0.8);
+    padding: 15px;
+    border-radius: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .btn a {
+    text-decoration: none;
+    color: rgb(238, 36, 44, 0.8);
+  }
+  
+  .btn:hover a {
+    color: #DBA111;
+  }
+  
+  .btn:hover {
+    color: #DBA111;
+    padding: 20px;
+  }
