@@ -37,18 +37,36 @@
         </p><br>
 
         <!-- game buttons -->
-        <!-- Game rules button -->
-        <button class="btn">Game Rules</button>
+        <div class="home-btn">
+            <!-- Game rules button - used modal code tutorial from W3 Schools and edited paragraph text / added class names/id names -->
+            <div class="w3-container">
+                <button onclick="openModal()" class="btn">Game Rules</button>
 
-        <!-- Start quiz button -->
-        <button class="btn" id="start-btn"><a href="game.html">Start Quiz</a></button>
+                <div id="game-rules" class="w3-modal">
+                    <div class="w3-modal-content">
+                        <div class="w3-container">
+                            <span onclick="closeModal()" class="btn w3-display-topright w3-button">&times;</span>
+                            <h3>Game Rules</h3>
+                            <p>The quiz consists of 15 questions.</p>
+                            <p>Click the answer you think is correct - if you are right, it will light up green, if you
+                                choose the wrong answer, it will light up red. The correct answer will light up green so
+                                you know which one you should have chosen.</p>
+                            <p>Click 'Start Quiz' and the first question will appear.</p>
+                            <p>At the end of the quiz, save your score on the leaderboard.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Start quiz button -->
+            <button class="btn" id="start-btn"><a href="game.html">Start Quiz</a></button>
+        </div>
     </div>
 
     <!-- footer -->
     <footer><a href="https://www.freepik.com/">FREEP!K</a></footer>
 
     <!-- Javascript / JQuery -->
-    <script src=""></script>
+    <script src="assets/js/index.js"></script>
     <script src="https://code.jquery.com/jquery-3.7.1.js"
         integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
 </body>
