@@ -102,5 +102,14 @@ function showQuestion() {
         button.classList.add("btn");
     });
 }
+// Function to select an answer option and increase score by 1 if correct answer is chosen 
+function selectAnswer(e) {
+    const selectedButton = e.target;
+    const answer = quizData[currentQuestion].answer;
+
+    if (selectedButton.innerText === answer) {
+        score++;
+    }
+};
 
 showQuestion();
