@@ -107,8 +107,15 @@ function selectAnswer(e) {
     const selectedButton = e.target;
     const answer = quizData[currentQuestion].answer;
 
-    if (selectedButton.innerText === answer) {
+    if (selectedButton.innerText === answer) { // If selected answer is correct answer, increase score by 1
         score++;
+    }
+    currentQuestion++; // Increase current question by 1 until the end of the array of questions. At the end of the array, show the final score.
+
+    if (currentQuestion < quizData.length) {
+        showQuestion();
+    } else {
+        showResult();
     }
 };
 
