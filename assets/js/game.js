@@ -103,5 +103,4 @@ function showQuestion() {
     });
 }
 
-
 showQuestion();
