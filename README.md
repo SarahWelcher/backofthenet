@@ -6,9 +6,9 @@ Back of the net website allows users to play a fun football quiz with a total of
 
 It also allows users to log their score on the leaderboard at the end, and compare their scores with other users.
 
-![]()
+![AmIResponsive](../backofthenet/assets/readme-images/amiresponsive.webp)
 
-[Back of the net is available to view on Github pages]()
+[Back of the net is available to view on Github pages](https://sarahwelcher.github.io/backofthenet/index.html)
 
 ***
 
@@ -78,15 +78,15 @@ Basic wireframes were created for mobile, tablet and desktop using Balsamiq.
 
 <details>
 <summary>Home</summary>
-<img src="../backofthenet/assets/readme-images/home-wireframe.png">
+<img src="../backofthenet/assets/readme-images/home-wireframe.webp">
 </details>
 <details>
 <summary>Game</summary>
-<img src="../backofthenet/assets/readme-images/game-wireframe.png">
+<img src="../backofthenet/assets/readme-images/game-wireframe.webp">
 </details>
 <details>
 <summary>Leaderboard</summary>
-<img src="../backofthenet/assets/readme-images/leaderboard-wireframe.png">
+<img src="../backofthenet/assets/readme-images/leaderboard-wireframe.webp">
 </details>
 
 ### Colors
@@ -95,7 +95,7 @@ The Chelsea Football Club team colors used were found on [Team Color Codes](http
 
 The color palette for these colors was created using [Coolors](https://www.coolors.co/).
 
-![Color palette](../backofthenet/assets/readme-images/colors.png)
+![Color palette](../backofthenet/assets/readme-images/colors.webp)
 
 ### Typography
 

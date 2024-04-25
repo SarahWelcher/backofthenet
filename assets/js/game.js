@@ -13,7 +13,7 @@ let score = 0;
 const quizData = [
     {
         question: "Which English club was the first to win the European Cup in 1968?",
-        options: ["Manchester City", "Tottenham Hotspurs", "Manchester United", "Arsenal"],
+        options: ["Manchester City", "Tottenham Hotspur", "Manchester United", "Arsenal"],
         answer: "Manchester United"
     },
     {
@@ -68,7 +68,7 @@ const quizData = [
     },
     {
         question: "Which club side won the 2022/23 UEFA Women's Champions League?",
-        options: ["Real Madrid", "Barcelona", "Ayax", "Lyon"],
+        options: ["Real Madrid", "Barcelona", "Ajax", "Lyon"],
         answer: "Barcelona"
     },
     {
