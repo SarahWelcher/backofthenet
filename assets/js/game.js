@@ -18,7 +18,7 @@ const quizData = [
     },
     {
         question: "What is the nickname of England women's national team?",
-        options: ["Tigers", "Leapards", "Elephants", "Lionesses"],
+        options: ["Tigers", "Leopards", "Elephants", "Lionesses"],
         answer: "Lionesses"
     },
     {
@@ -74,7 +74,7 @@ const quizData = [
     {
         question: "Which country won the first-ever FIFA World Cup in 1930?",
         options: ["Uruguay", "France", "Brazil", "Mexico"],
-        correctAnswer: "Uruguay"
+        answer: "Uruguay"
     },
     {
         question: "Who was the Golden Boot winner and Player of the Tournament at Euro 2022?",
