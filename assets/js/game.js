@@ -5,9 +5,9 @@ const questionElement = document.getElementById("question");
 const optionsElement = document.getElementById("options");
 
 // Declare current question and score
-const totalScore = document.getElementById("total-score");
+let score = document.getElementById("total-score");
 let currentQuestion = 0;
-let score = 0;
+score = 0;
 
 
 
