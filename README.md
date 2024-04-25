@@ -124,7 +124,54 @@ The final result will then be shown with a congratulatory message.
 - There are 15 questions.
 - Responsive on all device sizes.
 
+### Homepage
 
+- The homepage is a simple, easy to navigate page with 2 buttons. 
+- One button opens a modal to show the game rules.
+- One button starts the game.
+
+<details>
+<summary>Homepage</summary>
+<img src="../backofthenet/assets/readme-images/homepage.webp">
+</details>
+
+### Game Rules Modal
+
+- The game rules modal opens to show the rules. This puts a slight overlay over the homepage and has an X in the top right corner to close the modal again.
+
+<details>
+<summary>Modal</summary>
+<img src="../backofthenet/assets/readme-images/game-rules-modal.webp">
+</details>
+
+### Game interface
+
+- Again, a simple easy to navigate page with a question shown, and 4 answer options. 
+- Answers are on individual buttons.
+- Users can click the button they think contains the correct answer, and the question will then move on to the next one.
+
+<details>
+<summary>Game interface</summary>
+<img src="../backofthenet/assets/readme-images/game-interface.webp">
+</details>
+
+### Score Counter
+
+- For each correctly answered question, the score counter will go up by 1.
+
+<details>
+<summary>Score counter</summary>
+<img src="../backofthenet/assets/readme-images/score-counter.webp">
+</details>
+
+### Final result
+
+- At the end of the 15 questions, the final score will be shown with a message congratulating the user for finishing the quiz.
+
+<details>
+<summary>Final result</summary>
+<img src="../backofthenet/assets/readme-images/final-score.webp">
+</details>
 
 ### Footer
 
@@ -133,10 +180,8 @@ The final result will then be shown with a congratulatory message.
 
 <details>
 <summary>Footer</summary>
-<img src="">
+<img src="../backofthenet/assets/readme-images/footer.webp">
 </details>
-
-
 
 ### Future Features
 
@@ -153,29 +198,45 @@ The final result will then be shown with a congratulatory message.
 - All wireframes were created using [Balsamiq](https://balsamiq.com/)
 - [Google fonts](https://fonts.google.com/) was used for all typography
 - [amiresponsive](https://ui.dev/amiresponsive) was used for the mock ups
+- [CloudConverter](https://cloudconvert.com/) for converting from png/jpeg to webp
 
 ***
 
 ## Testing
 
+### Manual vs Automation testing
+
+- Automated testing is good for checking simple tasks, particularly more repetitive tasks, whereas manual is good for testing complex tasks.
+
 ### W3 Validator results
 
 <details>
 <summary>index.html</summary>
-
+<img src="assets/readme-images/w3-home-test.webp">
 </details>
-
+<details>
+<summary>game.html</summary>
+<img src="assets/readme-images/w3-game-test.webp">
+</details>
 
 ### Jigsaw Results
 
+![Jigsaw results](assets/readme-images/css-testing.webp)
+
 ### Jest Results
 
-![]()
+![Home](assets/readme-images/homepage-jest.webp)
+![Game](assets/readme-images/game-jest.webp)
 
 ### Other Testing
-- Viewed on
 - Links between pages were all working throughout the coding process.
 - Chrome dev tools was used throughout to check responsiveness.
+
+| What was done | Working correctly? |
+|---------------------|:---------------------:|
+| I checked that the "Game Rules" and "Start Game" buttons work by clicking on them      | <span style="background-color: green; padding: 3px;">Yes</span>|
+| I Checked whether the font changes color and buttons increase in size when hovered over with mouse       |<span style="background-color: green; padding: 3px;">Yes</span>|
+| I Checked each function in javascript worked before moving on to the next one       |<span style="background-color: green; padding: 3px;">Yes</span>|
 
 ### Lighthouse Results
 
@@ -209,12 +270,8 @@ The final result will then be shown with a congratulatory message.
 ### Resolved issues
 
 - One question was not increasing the score when correct answer selected - This was fixed after a spelling error was found.
--
 
 ### Unresolved issues
-
--
--
 
 ***
 

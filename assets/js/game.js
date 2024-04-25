@@ -1,15 +1,14 @@
 // Tutorial used to assist with writing javascript element of website (https://medium.com/@codepicker57/building-an-interactive-quiz-with-html-css-and-javascript-efe9bd8129e2)
-
-// Declare questions and answers
+// Declare questions and answers 
 const questionElement = document.getElementById("question");
 const optionsElement = document.getElementById("options");
 
-// Declare current question and score
+// Declare current question and score 
 let scoreSpan = document.getElementById("user-score");
 let currentQuestion = 0;
 let score = 0;
 
-// Questions and Answers
+// Questions and Answers 
 const quizData = [
     {
         question: "Which English club was the first to win the European Cup in 1968?",
@@ -88,22 +87,22 @@ const quizData = [
     }
 ];
 
-// Show question function - shows next question when answer is chosen for current question.
+// Show question function - shows next question when answer is chosen for current question. Tutorial linked at top of page used.
 function showQuestion() {
     const question = quizData[currentQuestion];
     questionElement.innerText = question.question;
 
-    // Creates a button for answer options and changes inner text to array option
+    // Creates a button for answer options and changes inner text to array option. Tutorial linked at top of page used.
     optionsElement.innerHTML = "";
     question.options.forEach(option => {
-        const button = document.createElement("button")
+        const button = document.createElement("button");
         button.innerText = option;
         optionsElement.appendChild(button);
         button.addEventListener("click", selectAnswer);
         button.classList.add("btn");
     });
 }
-// Function to select an answer option and increase score by 1 if correct answer is chosen 
+// Function to select an answer option and increase score by 1 if correct answer is chosen. Tutorial linked at top of page used and adjusted to fit my game.
 function selectAnswer(e) {
     const selectedButton = e.target;
     const answer = quizData[currentQuestion].answer;
@@ -127,8 +126,8 @@ function showResult() {
     let resultScreen = document.getElementById("result-screen").style.display = 'block';
     let scoreResult = document.getElementById("score-result");
     scoreResult.innerHTML = `<h2>Congratulations, you finished the quiz!</h2>
-            <p>Your score is: ${score}/${quizData.length}</p>`
-        
-};
+<p>Your score is: ${score}/${quizData.length}</p>`;
+
+}
 
 showQuestion();
