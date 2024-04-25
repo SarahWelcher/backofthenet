@@ -123,11 +123,10 @@ function selectAnswer(e) {
 
 // Show final score
 function showResult() {
-    let gameScreen = document.getElementById("game-screen").style.display = 'none';
+    let gameScreen = document.getElementById("quiz").style.display = 'none';
     let resultScreen = document.getElementById("result-screen").style.display = 'block';
-    let scoreResult = document.getElementsByClassName("score-result");
-    scoreResult.innerHTML = `<h2>Congratulations, you finished the quiz!</h2>
-            <p>Your score is: ${score}/${quizData.length}</p>`
+    // scoreResult.innerHTML = `<h2>Congratulations, you finished the quiz!</h2>
+    //         <p>Your score is: ${score}/${quizData.length}</p>`
 };
 
 showQuestion();

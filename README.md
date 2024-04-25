@@ -187,7 +187,7 @@ The homepage was designed to be simple for users, showing a short welcome messag
 
 <details>
 <summary>Homepage</summary>
-
+<img src="assets/readme-images/homepage-mobile.webp">
 </details>
 
 
@@ -195,7 +195,7 @@ The homepage was designed to be simple for users, showing a short welcome messag
 
 <details>
 <summary>Homepage</summary>
-
+<img src="assets/readme-images/homepage-desktop.webp">
 </details>
 
 
