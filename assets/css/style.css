@@ -116,3 +116,9 @@ footer a {
 #result-screen {
   display: none;
 }
+
+#score-result {
+  font-size: x-large;
+  color: rgb(219, 161, 17, 0.9);
+  font-family: Bungee, sans-serif;
+}
