@@ -4,8 +4,6 @@ This website is designed to be responsive on a range of devices.
 
 Back of the net website allows users to play a fun football quiz with a total of 15 questions.
 
-It also allows users to log their score on the leaderboard at the end, and compare their scores with other users.
-
 ![AmIResponsive](../backofthenet/assets/readme-images/amiresponsive.webp)
 
 [Back of the net is available to view on Github pages](https://sarahwelcher.github.io/backofthenet/index.html)
@@ -27,7 +25,6 @@ It also allows users to log their score on the leaderboard at the end, and compa
 - [Structure](#structure)
     - [Homepage](#homepage)
     - [Game](#game)
-    - [Leaderboard](#leaderboard)
     - [Features](#features)
     - [Future Features](#future-features)
 - [Technology Used](#technology-used)
@@ -55,7 +52,6 @@ It also allows users to log their score on the leaderboard at the end, and compa
 ### Key Information
 
 - 15 general knowledge football questions.
-- A leaderboard to log total scores and compare score with other users.
 
 ### First time user goals
 
@@ -66,7 +62,8 @@ It also allows users to log their score on the leaderboard at the end, and compa
 
 ### Returning user goals
 
-- To have a leaderboard to compare scores.
+- To be able to play again.
+- To be able to log scores on a leaderboard.
 
 ***
 
@@ -83,10 +80,6 @@ Basic wireframes were created for mobile, tablet and desktop using Balsamiq.
 <details>
 <summary>Game</summary>
 <img src="../backofthenet/assets/readme-images/game-wireframe.webp">
-</details>
-<details>
-<summary>Leaderboard</summary>
-<img src="../backofthenet/assets/readme-images/leaderboard-wireframe.webp">
 </details>
 
 ### Colors
@@ -119,7 +112,8 @@ The homepage was designed to be simple for users, showing a short welcome messag
 
 ### Game
 
-### Leaderboard
+The game consists of a question and four answer buttons. Each correct question will then be added to the score which will appear after the first correct answer.
+The final result will then be shown with a congratulatory message.
 
 ***
 
@@ -127,7 +121,7 @@ The homepage was designed to be simple for users, showing a short welcome messag
 
 - This website is targeting people who enjoy football and completing quizzes.
 - They are able to answer multiple choice questions about both mens and womens football.
-- There are 15 questions and a leaderboard to see if users can beat their high scores, or their friends high scores.
+- There are 15 questions.
 - Responsive on all device sizes.
 
 
@@ -146,13 +140,15 @@ The homepage was designed to be simple for users, showing a short welcome messag
 
 ### Future Features
 
-
+- In future I would like to add a leaderboard - this is something that was planned but unfortunately ran out of time to add at present.
+- Colour highlighting to show whether an answer was correct or incorrect. If incorrect, this will also highlight what the correct answer actually was.
+- Easy, medium and hard levels.
 
 ***
 
 ## Technology Used
 
-- HTML, CSS & Javascript/JQuery were used to create the website
+- HTML, CSS & Javascript were used to create the website
 - Gitpod & Github
 - All wireframes were created using [Balsamiq](https://balsamiq.com/)
 - [Google fonts](https://fonts.google.com/) was used for all typography
@@ -189,13 +185,20 @@ The homepage was designed to be simple for users, showing a short welcome messag
 <summary>Homepage</summary>
 <img src="assets/readme-images/homepage-mobile.webp">
 </details>
-
+<details>
+<summary>Game</summary>
+<img src="assets/readme-images/game-mobile.webp">
+</details>
 
 #### Desktop
 
 <details>
 <summary>Homepage</summary>
 <img src="assets/readme-images/homepage-desktop.webp">
+</details>
+<details>
+<summary>Game</summary>
+<img src="assets/readme-images/game-desktop.webp">
 </details>
 
 
@@ -205,7 +208,7 @@ The homepage was designed to be simple for users, showing a short welcome messag
 
 ### Resolved issues
 
--
+- One question was not increasing the score when correct answer selected - This was fixed after a spelling error was found.
 -
 
 ### Unresolved issues
@@ -254,8 +257,9 @@ GitHub Pages used to deploy live version of the website.
 
 ## Tutorials used
 
--
--
+- [Medium](https://medium.com/@codepicker57/building-an-interactive-quiz-with-html-css-and-javascript-efe9bd8129e2)
+- [W3 Schools](https://www.w3schools.com/)
+- [A Smarter Way to Learn JavaScript](https://www.amazon.co.uk/Smarter-Way-Learn-JavaScript-technology-ebook/dp/B00H1W9I6C/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=&sr=)
 
 ## Credits
 
@@ -267,3 +271,4 @@ GitHub Pages used to deploy live version of the website.
 ## Acknowledgements
 
 - My Mentor Mitko Bachvarov, for all his help and advice.
+- My uncle Tim who helped me to get things working and understand where I was going wrong.
