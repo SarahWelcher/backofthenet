@@ -4,7 +4,7 @@ This website is designed to be responsive on a range of devices.
 
 Back of the net website allows users to play a fun football quiz with a total of 15 questions.
 
-![AmIResponsive](../backofthenet/assets/readme-images/amiresponsive.webp)
+![AmIResponsive](/assets/readme-images/amiresponsive.webp)
 
 [Back of the net is available to view on Github pages](https://sarahwelcher.github.io/backofthenet/index.html)
 
