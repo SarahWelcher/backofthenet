@@ -30,6 +30,7 @@
   
   .welcome-message {
     color: #D1D3D4;
+    font-family: Bungee, sans-serif;
   }
 
   /* ------ Container ------ */
@@ -113,11 +114,12 @@ footer a {
   font-family: Bungee, sans-serif;
 }
 
+/* final results */
 #result-screen {
   display: none;
 }
 
-#score-result {
+#score-result, #score-result h2 {
   font-size: x-large;
   color: rgb(219, 161, 17, 0.9);
   font-family: Bungee, sans-serif;
