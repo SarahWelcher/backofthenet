@@ -5,11 +5,9 @@ const questionElement = document.getElementById("question");
 const optionsElement = document.getElementById("options");
 
 // Declare current question and score
-let score = document.getElementById("total-score");
+let scoreSpan = document.getElementById("user-score");
 let currentQuestion = 0;
-score = 0;
-
-
+let score = 0;
 
 // Questions and Answers
 const quizData = [
@@ -112,6 +110,7 @@ function selectAnswer(e) {
 
     if (selectedButton.innerText === answer) { // If selected answer is correct answer, increase score by 1
         score++;
+        scoreSpan.innerHTML = score;
     }
     currentQuestion++; // Increase current question by 1 until the end of the array of questions. At the end of the array, show the final score.
 
@@ -126,8 +125,8 @@ function selectAnswer(e) {
 function showResult() {
     window.location.replace("https://8000-sarahwelche-backofthene-dv8gc4q51hg.ws-eu110.gitpod.io/results.html");
     score.innerHTML = `
-    <h1>Quiz Completed!</h1>
-    <p>Your score: ${score}/${quizData.length}</p>
+    <h1>You completed the quiz!</h1>
+    <p>Your score is: ${score}/${quizData.length}</p>
     `;
 };
 
