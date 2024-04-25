@@ -75,11 +75,11 @@ Basic wireframes were created for mobile, tablet and desktop using Balsamiq.
 
 <details>
 <summary>Home</summary>
-<img src="../backofthenet/assets/readme-images/home-wireframe.webp">
+<img src="/assets/readme-images/home-wireframe.webp">
 </details>
 <details>
 <summary>Game</summary>
-<img src="../backofthenet/assets/readme-images/game-wireframe.webp">
+<img src="/assets/readme-images/game-wireframe.webp">
 </details>
 
 ### Colors
@@ -88,13 +88,13 @@ The Chelsea Football Club team colors used were found on [Team Color Codes](http
 
 The color palette for these colors was created using [Coolors](https://www.coolors.co/).
 
-![Color palette](../backofthenet/assets/readme-images/colors.webp)
+![Color palette](/assets/readme-images/colors.webp)
 
 ### Typography
 
 Google fonts was used to select the typography used within the website. Bungee was primarily used across the site, with sans-serif as fall back.
 
-![Google Fonts - Bungee](../backofthenet/assets/readme-images/bungee-font.png)
+![Google Fonts - Bungee](/assets/readme-images/bungee-font.png)
 
 ### Images
 
@@ -132,7 +132,7 @@ The final result will then be shown with a congratulatory message.
 
 <details>
 <summary>Homepage</summary>
-<img src="../backofthenet/assets/readme-images/homepage.webp">
+<img src="/assets/readme-images/homepage.webp">
 </details>
 
 ### Game Rules Modal
@@ -141,7 +141,7 @@ The final result will then be shown with a congratulatory message.
 
 <details>
 <summary>Modal</summary>
-<img src="../backofthenet/assets/readme-images/game-rules-modal.webp">
+<img src="/assets/readme-images/game-rules-modal.webp">
 </details>
 
 ### Game interface
@@ -152,7 +152,7 @@ The final result will then be shown with a congratulatory message.
 
 <details>
 <summary>Game interface</summary>
-<img src="../backofthenet/assets/readme-images/game-interface.webp">
+<img src="/assets/readme-images/game-interface.webp">
 </details>
 
 ### Score Counter
@@ -161,7 +161,7 @@ The final result will then be shown with a congratulatory message.
 
 <details>
 <summary>Score counter</summary>
-<img src="../backofthenet/assets/readme-images/score-counter.webp">
+<img src="/assets/readme-images/score-counter.webp">
 </details>
 
 ### Final result
@@ -170,7 +170,7 @@ The final result will then be shown with a congratulatory message.
 
 <details>
 <summary>Final result</summary>
-<img src="../backofthenet/assets/readme-images/final-score.webp">
+<img src="/assets/readme-images/final-score.webp">
 </details>
 
 ### Footer
@@ -180,7 +180,7 @@ The final result will then be shown with a congratulatory message.
 
 <details>
 <summary>Footer</summary>
-<img src="../backofthenet/assets/readme-images/footer.webp">
+<img src="/assets/readme-images/footer.webp">
 </details>
 
 ### Future Features
