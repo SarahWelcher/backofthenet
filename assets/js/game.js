@@ -123,11 +123,11 @@ function selectAnswer(e) {
 
 // Show final score
 function showResult() {
-    window.location.replace("https://8000-sarahwelche-backofthene-dv8gc4q51hg.ws-eu110.gitpod.io/results.html");
-    score.innerHTML = `
-    <h1>You completed the quiz!</h1>
-    <p>Your score is: ${score}/${quizData.length}</p>
-    `;
+    let gameScreen = document.getElementById("game-screen").style.display = 'none';
+    let resultScreen = document.getElementById("result-screen").style.display = 'block';
+    let scoreResult = document.getElementsByClassName("score-result");
+    scoreResult.innerHTML = `<h2>Congratulations, you finished the quiz!</h2>
+            <p>Your score is: ${score}/${quizData.length}</p>`
 };
 
 showQuestion();

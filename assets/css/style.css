@@ -113,3 +113,6 @@ footer a {
   font-family: Bungee, sans-serif;
 }
 
+#result-screen {
+  display: none;
+}
