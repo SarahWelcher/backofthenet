@@ -5,8 +5,11 @@ const questionElement = document.getElementById("question");
 const optionsElement = document.getElementById("options");
 
 // Declare current question and score
+const totalScore = document.getElementById("total-score");
 let currentQuestion = 0;
 let score = 0;
+
+
 
 // Questions and Answers
 const quizData = [
@@ -117,6 +120,15 @@ function selectAnswer(e) {
     } else {
         showResult();
     }
+}
+
+// Show final score
+function showResult() {
+    window.location.replace("https://8000-sarahwelche-backofthene-dv8gc4q51hg.ws-eu110.gitpod.io/results.html");
+    score.innerHTML = `
+    <h1>Quiz Completed!</h1>
+    <p>Your score: ${score}/${quizData.length}</p>
+    `;
 };
 
 showQuestion();
